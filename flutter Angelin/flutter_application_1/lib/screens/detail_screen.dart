@@ -10,6 +10,8 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          // Detail header
+          // image utama
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),
             child: ClipRRect(
@@ -20,6 +22,20 @@ class DetailScreen extends StatelessWidget {
                 height: 300,
                 fit: BoxFit.cover,
               ),
+            ),
+          )
+          // tombol back
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.deepPurple[100]?.withOpacity(0.8),
+                shape: BoxShape.circle,
+              ),
+              child: IconButton(
+                onPressed: () {},
+                icon:  const Icon(Icons.arrow_back)
+                ),
             ),
           )
         ],
