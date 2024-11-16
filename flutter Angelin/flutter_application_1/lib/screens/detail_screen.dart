@@ -69,11 +69,30 @@ class DetailScreen extends StatelessWidget {
                 ),
                 Row(children:[
                   const Icon (Icons.place, color : Colors.red,),
-                  SizedBox(width : 8,),
-                  SizeBox(width : 70, child : Text('Lokasi', style: TextStyle(fontWeight: FontWeight.bold),
-                  ),)
+                  const SizedBox(width : 8,),
+                  const SizeBox(
+                    width : 70, 
+                    child : Text(
+                      'Lokasi', 
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  )
+                ],
+                ),
+                Row(children:[
+                  const Icon(
+                    Icons.place, color: Colors.red,
+                  ),
+                  const SizedBox(width : 8,),
+                  const SizeBox(
+                    width : 70, 
+                    child : Text(
+                      'Lokasi', 
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  )
+
                 ],),
-                Row(children:[],),
                 Row(children:[],),
                 // imfo bawah
               ],
