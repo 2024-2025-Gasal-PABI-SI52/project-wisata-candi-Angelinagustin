@@ -199,8 +199,11 @@ class DetailScreen extends StatelessWidget {
                                     height: 120,
                                     color: Colors.deepPurple[50],
                                   ),
-                                  errorWidget: (context, url, error)=> const Icon(Icons.error),
+                                  errorWidget: (context, url, error)=> 
+                                  const Icon(
+                                    (Icons.error),
                                   ),
+                                ),
                               ),
                             ),
                           )
@@ -213,7 +216,10 @@ class DetailScreen extends StatelessWidget {
                   ),
                   const Text (
                     'Tap untuk memperbesar', 
-                    style: TextStyle(fontSize: 12, color : Colors.black54),
+                    style: TextStyle(
+                      fontSize: 12, 
+                      color : Colors.black54
+                    ),
                   ),
                 ],
               ),
