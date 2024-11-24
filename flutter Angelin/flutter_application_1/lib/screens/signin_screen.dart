@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'package:wisata_candi/data/candi_data.dart';
-import 'package:wisata_candi/screens/detail_screen.dart';
-import 'package:wisata_candi/screens/home_screen.dart';
-import 'package:wisata_candi/screens/signup_screen.dart';
+import 'package:flutter_application_1/data/candi_data.dart';
+import 'package:flutter_application_1/screens/detail_screen.dart';
+import 'package:flutter_application_1/screens/home_screen.dart';
+import 'package:flutter_application_1/screens/signin_screen.dart';
 
 class SignInScreen extends StatefulWidget {
   SignInScreen({super.key});
